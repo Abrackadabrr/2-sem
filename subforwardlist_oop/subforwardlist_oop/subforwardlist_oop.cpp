@@ -1,5 +1,4 @@
-﻿
-#include <iostream>
+﻿#include <iostream>
 #include <random>
 #include <chrono>
 
@@ -10,17 +9,17 @@ class subforwardlist
 {
 
 private:
-	struct node 
+	struct node
 	{
 		node* next_;
 		int data_;
 
-		node(int data, node* next = nullptr) 
+		node(int data, node* next = nullptr)
 		{
 			next_ = next;
 			data_ = data;
 		}
-		
+
 	};
 
 	unsigned int size_;
