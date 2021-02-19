@@ -67,7 +67,7 @@ void subvector::expand(unsigned int new_cap)
     }
 
     //добавление элемента в конец недовектора
-    //с выделением дополнительной памяти при необходимости 
+    //с выделением дополнительной памяти при необходимости
 bool subvector::push_back(int d)
     {
         if (this->capacity > this->top)
@@ -147,7 +147,7 @@ unsigned int subvector::get_top()
     return this->top;
 }
 
-
+/*
 
 //!PROFILER FOR SUBVECTOR
 
@@ -240,7 +240,7 @@ int main()
     finish = get_time();
 
     sv.shrink_to_fit();
-    if (sv.get_cap())   
+    if (sv.get_cap())
     {
         cout << endl << "--- !!! Failed resize/shrink consistency !!! ---" << endl;
         return 0;
@@ -329,7 +329,7 @@ int main()
 
 
 
-
+*/
 
 
 
@@ -445,3 +445,6 @@ int main()
 //    delete[] qv->mas;
 //    init(qv);
 //}
+
+
+

@@ -33,13 +33,13 @@ public:
 
 	bool push_back(int d);
 
-	void pop_front();
+	void pop_front();////
 
 	int pop_back();
 
 	bool push_forward(int d);
 
-	int pop_forward();
+	int pop_forward();////
 
 	bool push_where(unsigned int where, int d);
 
@@ -50,7 +50,6 @@ public:
 	void clear();
 
 	int operator [](int i);
-
 
 };
 
@@ -271,6 +270,30 @@ void subforwardlist::clear() {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
